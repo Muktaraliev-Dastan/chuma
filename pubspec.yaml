@@ -1,0 +1,80 @@
+name: chum2
+description: Chum Ca phe application
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.1 <4.0.0"
+  flutter: '>=2.18.1'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.1
+  http: ^1.2.1
+  equatable: ^2.0.3
+  flutter_bloc: ^8.0.1
+  flutter_svg: ^2.0.10+1
+  carousel_slider: ^4.0.0
+  modal_bottom_sheet: ^3.0.0
+  figma_squircle: ^0.5.3
+  dio: ^5.4.3+1
+  intl: ^0.18.1
+  firebase_core: ^2.31.0
+  firebase_auth: ^4.19.5
+  google_sign_in: ^6.2.1
+  bloc_concurrency: ^0.2.0
+  freezed: ^2.1.0+1
+  l: ^4.0.2
+  firebase_crashlytics: ^3.5.5
+  firebase_analytics: ^10.10.5
+  json_annotation: ^4.7.0
+  freezed_annotation: ^2.1.0
+
+  # зависимости для разработки (удалить после окончания разработки)
+  pixel_perfect: ^1.1.0
+  go_router: ^14.1.1
+
+
+  # будущие зависимости (внедрить в разработке)
+  #  flutter_secure_storage: ^4.2.1
+  #  flutter_translate: ^3.0.1
+  #  connectivity_plus: ^2.2.1
+  # мусор (удалить после разработки если непонадобится)
+  #  data_connection_checker:
+  #  переписал данный пакет, так как поломался после обновления флаттеразги
+  #  simple_shadow: ^0.2.0
+  #  provider: ^6.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  build_runner: ^2.1.11
+  json_serializable: ^6.2.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/icons/
+    - assets/icons/bottom_menu/
+    - assets/icons/app_bar/
+    - assets/icons/type_of_delivery_card/
+    - assets/icons/product_info_screen/
+    - assets/icons/common/
+    - assets/shapes/
+    - assets/vip_cards/
+
+    - assets/prototype/
+    - assets/from_server/
+    - assets/from_server/additional_products/
+    - assets/from_server/promo/
+    - assets/from_server/categories/
+    - assets/from_server/products/
+    - assets/from_server/cooking_types/
+    - assets/from_server/shops/

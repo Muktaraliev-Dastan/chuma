@@ -1,0 +1,1 @@
+enum TypeOfService {delivery, takeAway, inRestaurant}
